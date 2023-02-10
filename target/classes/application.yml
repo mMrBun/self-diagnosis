@@ -1,0 +1,15 @@
+server:
+  port: 9999
+  max-http-header-size: 803600
+  servlet:
+    context-path: /neo4j
+
+spring:
+  data:
+    neo4j:
+      uri: bolt://192.168.137.128:7687
+      username: neo4j
+      password: xh980904
+
+swagger:
+  enable: true
